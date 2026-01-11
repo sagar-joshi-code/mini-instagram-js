@@ -78,8 +78,29 @@ const user = [
     },
   },
 ];
+//Sagar joshi
 
-// user[0].logIn();
-// user[0].addFollower();
-// user[0].addFollower();
-// user[0].showProfile();
+user[0].logIn();
+user[0].addFollower();
+user[0].removeFollower();
+console.log(user[0].userName);
+console.log(user[0].isLoggedIn);
+console.log("follower:", user[0].followers);
+
+//Dipesh joshi
+
+user[1].logIn();
+user[1].addFollower();
+user[1].removeFollower();
+console.log(user[1].userName);
+console.log(user[1].isLoggedIn);
+console.log("follower:", user[1].followers);
+
+//Binod joshi
+
+user[2].logIn();
+user[2].removeFollower();
+user[2].addFollower();
+console.log(user[2].userName);
+console.log(user[2].isLoggedIn);
+console.log("follower:", user[2].followers);
